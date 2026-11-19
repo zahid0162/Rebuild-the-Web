@@ -1,0 +1,6 @@
+{
+  "name": "Rebuild the Web",
+  "description": "Any Website. Your Code. Your Creativity. AI-powered website reverse-engineering and React reconstruction studio powered by Playwright and Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

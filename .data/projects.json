@@ -1,0 +1,800 @@
+[
+  {
+    "id": "example-meridian",
+    "name": "Meridian Treasury",
+    "sourceUrl": "https://example-meridian-treasury.org",
+    "mode": "rebuild",
+    "status": "completed",
+    "isExample": true,
+    "thumbnailUrl": "/src/assets/images/example_fintech_preview_1795070818851.jpg",
+    "createdAt": "2026-11-19T06:54:04.866Z",
+    "updatedAt": "2026-11-19T06:54:04.866Z",
+    "blueprint": {
+      "project": {
+        "name": "Meridian Treasury",
+        "type": "Institutional Fintech Platform",
+        "sourceUrl": "https://example-meridian-treasury.org",
+        "mode": "rebuild"
+      },
+      "metadata": {
+        "title": "Meridian Treasury — Automated Liquidity & Yield Infrastructure",
+        "description": "Institutional cash management and automated multi-currency settlement.",
+        "language": "en"
+      },
+      "designSystem": {
+        "primaryColor": "#2563EB",
+        "secondaryColor": "#0F172A",
+        "backgroundColor": "#F8FAFC",
+        "surfaceColor": "#FFFFFF",
+        "textColor": "#0F172A",
+        "mutedTextColor": "#475569",
+        "borderColor": "#E2E8F0",
+        "fontFamily": "DM Sans",
+        "displayFontFamily": "Plus Jakarta Sans",
+        "borderRadius": "8px",
+        "spacingScale": "8px",
+        "cssVariables": {
+          "--color-primary": "#2563EB",
+          "--color-bg": "#F8FAFC",
+          "--color-surface": "#FFFFFF",
+          "--color-text": "#0F172A"
+        }
+      },
+      "navigation": {
+        "brandName": "Meridian Treasury",
+        "sticky": true,
+        "links": [
+          {
+            "label": "Liquidity",
+            "href": "#features"
+          },
+          {
+            "label": "Settlement",
+            "href": "#overview"
+          },
+          {
+            "label": "Security",
+            "href": "#features"
+          },
+          {
+            "label": "Documentation",
+            "href": "#cta"
+          }
+        ],
+        "ctaLabel": "Open Treasury Account"
+      },
+      "responsiveRules": [
+        {
+          "breakpoint": "1440px",
+          "rule": "Two-column hero split with 3-column capability grid."
+        },
+        {
+          "breakpoint": "768px",
+          "rule": "Single-column hero stack with collapsible navigation drawer."
+        },
+        {
+          "breakpoint": "390px",
+          "rule": "Mobile compact padding (16px) and single-column cards."
+        }
+      ],
+      "components": [
+        {
+          "id": "navbar",
+          "name": "Top Navigation",
+          "type": "navigation",
+          "visible": true,
+          "props": {
+            "heading": "Meridian Treasury",
+            "ctaLabel": "Open Treasury Account",
+            "links": [
+              {
+                "label": "Liquidity",
+                "href": "#features"
+              },
+              {
+                "label": "Settlement",
+                "href": "#overview"
+              },
+              {
+                "label": "Security",
+                "href": "#features"
+              },
+              {
+                "label": "Documentation",
+                "href": "#cta"
+              }
+            ]
+          },
+          "styles": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#0F172A",
+            "borderColor": "#E2E8F0"
+          }
+        },
+        {
+          "id": "hero",
+          "name": "Hero Section",
+          "type": "hero",
+          "visible": true,
+          "props": {
+            "heading": "Institutional cash management built for real-time settlement.",
+            "subheading": "Unify multi-entity bank accounts, automate short-duration treasury sweeps, and reconcile global disbursements from a single ledger.",
+            "ctaLabel": "Explore Infrastructure",
+            "secondaryCtaLabel": "Read Technical Brief",
+            "imageUrl": "/src/assets/images/example_fintech_preview_1795070818851.jpg",
+            "imageAlt": "Meridian Treasury architectural glass atrium"
+          },
+          "styles": {
+            "backgroundColor": "#F8FAFC",
+            "textColor": "#0F172A",
+            "padding": "80px 24px",
+            "layout": "two-column"
+          }
+        },
+        {
+          "id": "features",
+          "name": "Capabilities Grid",
+          "type": "feature-grid",
+          "visible": true,
+          "props": {
+            "heading": "Core Treasury Primitives",
+            "subheading": "Designed for CFOs, controllers, and platform engineering teams operating across 40+ currencies.",
+            "items": [
+              {
+                "id": "f1",
+                "title": "Automated Liquidity Sweeps",
+                "description": "Route idle operating balances into sovereign T-bill ladders at market close with zero manual wire approvals."
+              },
+              {
+                "id": "f2",
+                "title": "Deterministic Ledger Sync",
+                "description": "Double-entry journal exports reconcile directly with NetSuite, SAP, and custom ERP pipelines in under 30 seconds."
+              },
+              {
+                "id": "f3",
+                "title": "Granular Approval Policies",
+                "description": "Enforce hardware-key quorum rules across subsidiaries, currency corridors, and daily disbursement thresholds."
+              }
+            ]
+          },
+          "styles": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#0F172A",
+            "padding": "72px 24px",
+            "layout": "three-column"
+          }
+        },
+        {
+          "id": "overview",
+          "name": "Architecture Split",
+          "type": "content-split",
+          "visible": true,
+          "props": {
+            "heading": "Direct bank rail connectivity without middleware drift.",
+            "body": "Meridian connects directly to Tier-1 clearing partners via ISO 20022 messaging, eliminating brittle screen-scraping aggregators.",
+            "ctaLabel": "Schedule Architecture Review"
+          },
+          "styles": {
+            "backgroundColor": "#F8FAFC",
+            "textColor": "#0F172A",
+            "padding": "72px 24px"
+          }
+        },
+        {
+          "id": "footer",
+          "name": "Footer",
+          "type": "footer",
+          "visible": true,
+          "props": {
+            "body": "© 2026 Meridian Treasury Infrastructure Ltd. Example template project.",
+            "links": [
+              {
+                "label": "System Status",
+                "href": "#top"
+              },
+              {
+                "label": "SOC 2 Report",
+                "href": "#features"
+              },
+              {
+                "label": "API Reference",
+                "href": "#overview"
+              }
+            ]
+          },
+          "styles": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#0F172A",
+            "padding": "48px 24px"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "path": "src/styles/tokens.css",
+        "content": ":root {\n  --color-primary: #2563EB;\n  --color-secondary: #0F172A;\n  --color-bg: #F8FAFC;\n  --color-surface: #FFFFFF;\n  --color-text: #0F172A;\n  --color-muted: #475569;\n  --color-border: #E2E8F0;\n  --font-display: 'Plus Jakarta Sans', sans-serif;\n  --font-body: 'DM Sans', sans-serif;\n  --radius-base: 8px;\n}\n\nbody {\n  background-color: var(--color-bg);\n  color: var(--color-text);\n  font-family: var(--font-body);\n  margin: 0;\n}\n",
+        "language": "css"
+      },
+      {
+        "path": "src/layouts/MainLayout.tsx",
+        "content": "import React from 'react';\n\nexport const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {\n  return <div className=\"min-h-screen flex flex-col\">{children}</div>;\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/Navbar.tsx",
+        "content": "import React, { useState } from 'react';\nimport { Menu, X } from 'lucide-react';\n\ninterface NavbarProps {\n  brandName: string;\n  links: Array<{ label: string; href: string }>;\n  ctaLabel?: string;\n  sticky?: boolean;\n  styles?: React.CSSProperties;\n}\n\nexport const Navbar: React.FC<NavbarProps> = ({\n  brandName,\n  links,\n  ctaLabel = 'Get Started',\n  sticky = true,\n  styles = {},\n}) => {\n  const [open, setOpen] = useState(false);\n\n  return (\n    <header\n      data-component-id=\"navbar\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'var(--color-bg)',\n        color: styles.color || 'var(--color-text)',\n        borderColor: styles.borderColor || 'var(--color-border)',\n        ...styles,\n      }}\n      className={`${sticky ? 'sticky top-0 z-40 backdrop-blur-md' : ''} border-b`}\n    >\n      <div className=\"mx-auto flex max-w-6xl items-center justify-between gap-8 px-6 py-4\">\n        <a href=\"#top\" className=\"text-lg font-semibold tracking-tight whitespace-nowrap shrink-0\" style={{ fontFamily: 'var(--font-display)' }}>\n          {brandName}\n        </a>\n        <nav className=\"hidden md:flex items-center gap-6 text-sm\" style={{ color: 'var(--color-muted)' }}>\n          {links.map((link) => (\n            <a key={link.label} href={link.href} className=\"hover:opacity-100 opacity-85 transition-opacity whitespace-nowrap shrink-0\">\n              {link.label}\n            </a>\n          ))}\n        </nav>\n        <div className=\"hidden md:flex items-center shrink-0\">\n          <a\n            href=\"#cta\"\n            className=\"px-4 py-2 text-xs font-medium whitespace-nowrap shrink-0 transition-opacity hover:opacity-90\"\n            style={{\n              backgroundColor: 'var(--color-primary)',\n              color: '#FFFFFF',\n              borderRadius: 'var(--radius-base)',\n            }}\n          >\n            {ctaLabel}\n          </a>\n        </div>\n        <button\n          type=\"button\"\n          onClick={() => setOpen(!open)}\n          aria-label=\"Toggle menu\"\n          className=\"md:hidden p-2 rounded border\"\n          style={{ borderColor: 'var(--color-border)' }}\n        >\n          {open ? <X size={18} /> : <Menu size={18} />}\n        </button>\n      </div>\n      {open && (\n        <div className=\"md:hidden border-t px-6 py-4 space-y-3\" style={{ borderColor: 'var(--color-border)' }}>\n          {links.map((link) => (\n            <a key={link.label} href={link.href} className=\"block text-sm py-1\">\n              {link.label}\n            </a>\n          ))}\n        </div>\n      )}\n    </header>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/HeroSection.tsx",
+        "content": "import React from 'react';\nimport { ArrowRight } from 'lucide-react';\n\ninterface HeroSectionProps {\n  heading: string;\n  subheading: string;\n  ctaLabel: string;\n  secondaryCtaLabel?: string;\n  imageUrl?: string;\n  imageAlt?: string;\n  styles?: React.CSSProperties;\n}\n\nexport const HeroSection: React.FC<HeroSectionProps> = ({\n  heading,\n  subheading,\n  ctaLabel,\n  secondaryCtaLabel,\n  imageUrl,\n  imageAlt = 'Featured visual',\n  styles = {},\n}) => {\n  return (\n    <section\n      data-component-id=\"hero\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'transparent',\n        color: styles.color || 'var(--color-text)',\n        padding: styles.padding || '80px 24px',\n        ...styles,\n      }}\n      className=\"border-b\"\n    >\n      <div className=\"mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-12\">\n        <div className=\"lg:col-span-6 space-y-6\">\n          <h1\n            className=\"text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]\"\n            style={{ fontFamily: 'var(--font-display)' }}\n          >\n            {heading}\n          </h1>\n          <p className=\"text-base md:text-lg leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n            {subheading}\n          </p>\n          <div className=\"flex flex-wrap items-center gap-3 pt-2\">\n            <a\n              href=\"#features\"\n              className=\"inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium transition-opacity hover:opacity-90\"\n              style={{\n                backgroundColor: 'var(--color-primary)',\n                color: '#FFFFFF',\n                borderRadius: 'var(--radius-base)',\n              }}\n            >\n              <span>{ctaLabel}</span>\n              <ArrowRight size={15} />\n            </a>\n            {secondaryCtaLabel && (\n              <a\n                href=\"#overview\"\n                className=\"inline-flex items-center px-5 py-2.5 text-sm font-medium border transition-colors\"\n                style={{\n                  borderColor: 'var(--color-border)',\n                  borderRadius: 'var(--radius-base)',\n                }}\n              >\n                {secondaryCtaLabel}\n              </a>\n            )}\n          </div>\n        </div>\n        <div className=\"lg:col-span-6\">\n          {imageUrl ? (\n            <div className=\"overflow-hidden border\" style={{ borderColor: 'var(--color-border)', borderRadius: 'var(--radius-base)' }}>\n              <img src={imageUrl} alt={imageAlt} className=\"w-full h-[360px] object-cover\" referrerPolicy=\"no-referrer\" />\n            </div>\n          ) : null}\n        </div>\n      </div>\n    </section>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/FeaturesSection.tsx",
+        "content": "import React from 'react';\n\ninterface FeatureItem {\n  id: string;\n  title: string;\n  description: string;\n  meta?: string;\n}\n\ninterface FeaturesSectionProps {\n  heading: string;\n  subheading?: string;\n  items: FeatureItem[];\n  styles?: React.CSSProperties;\n}\n\nexport const FeaturesSection: React.FC<FeaturesSectionProps> = ({\n  heading,\n  subheading,\n  items,\n  styles = {},\n}) => {\n  return (\n    <section\n      id=\"features\"\n      data-component-id=\"features\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'transparent',\n        color: styles.color || 'var(--color-text)',\n        padding: styles.padding || '72px 24px',\n        ...styles,\n      }}\n      className=\"border-b\"\n    >\n      <div className=\"mx-auto max-w-6xl space-y-10\">\n        <div className=\"max-w-2xl space-y-3\">\n          <h2 className=\"text-2xl md:text-3xl font-semibold tracking-tight\" style={{ fontFamily: 'var(--font-display)' }}>\n            {heading}\n          </h2>\n          {subheading && (\n            <p className=\"text-sm md:text-base leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n              {subheading}\n            </p>\n          )}\n        </div>\n        <div className=\"grid gap-6 md:grid-cols-3\">\n          {items.map((item, idx) => (\n            <article\n              key={item.id}\n              className=\"p-6 border space-y-3\"\n              style={{\n                backgroundColor: 'var(--color-surface)',\n                borderColor: 'var(--color-border)',\n                borderRadius: 'var(--radius-base)',\n              }}\n            >\n              <div className=\"text-xs font-mono opacity-60\">0{idx + 1}</div>\n              <h3 className=\"text-lg font-semibold\" style={{ fontFamily: 'var(--font-display)' }}>\n                {item.title}\n              </h3>\n              <p className=\"text-sm leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n                {item.description}\n              </p>\n            </article>\n          ))}\n        </div>\n      </div>\n    </section>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/ContentSplit.tsx",
+        "content": "import React from 'react';\n\ninterface ContentSplitProps {\n  heading: string;\n  body: string;\n  ctaLabel?: string;\n  styles?: React.CSSProperties;\n}\n\nexport const ContentSplit: React.FC<ContentSplitProps> = ({\n  heading,\n  body,\n  ctaLabel,\n  styles = {},\n}) => {\n  return (\n    <section\n      id=\"overview\"\n      data-component-id=\"overview\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'transparent',\n        color: styles.color || 'var(--color-text)',\n        padding: styles.padding || '72px 24px',\n        ...styles,\n      }}\n      className=\"border-b\"\n    >\n      <div className=\"mx-auto max-w-6xl grid gap-8 md:grid-cols-12 items-center\">\n        <div className=\"md:col-span-7 space-y-4\">\n          <h2 className=\"text-2xl md:text-3xl font-semibold tracking-tight\" style={{ fontFamily: 'var(--font-display)' }}>\n            {heading}\n          </h2>\n          <p className=\"text-base leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n            {body}\n          </p>\n        </div>\n        <div className=\"md:col-span-5 flex md:justify-end\">\n          {ctaLabel && (\n            <a\n              href=\"#cta\"\n              className=\"px-5 py-2.5 text-sm font-medium\"\n              style={{\n                backgroundColor: 'var(--color-primary)',\n                color: '#FFFFFF',\n                borderRadius: 'var(--radius-base)',\n              }}\n            >\n              {ctaLabel}\n            </a>\n          )}\n        </div>\n      </div>\n    </section>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/Footer.tsx",
+        "content": "import React from 'react';\n\ninterface FooterProps {\n  brandName: string;\n  body: string;\n  links?: Array<{ label: string; href: string }>;\n  styles?: React.CSSProperties;\n}\n\nexport const Footer: React.FC<FooterProps> = ({\n  brandName,\n  body,\n  links = [],\n  styles = {},\n}) => {\n  return (\n    <footer\n      id=\"cta\"\n      data-component-id=\"footer\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'var(--color-surface)',\n        color: styles.color || 'var(--color-text)',\n        borderColor: 'var(--color-border)',\n        padding: styles.padding || '48px 24px',\n        ...styles,\n      }}\n      className=\"border-t\"\n    >\n      <div className=\"mx-auto max-w-6xl flex flex-col md:flex-row items-start md:items-center justify-between gap-6\">\n        <div className=\"space-y-1\">\n          <div className=\"text-base font-semibold\" style={{ fontFamily: 'var(--font-display)' }}>\n            {brandName}\n          </div>\n          <p className=\"text-xs\" style={{ color: 'var(--color-muted)' }}>\n            {body}\n          </p>\n        </div>\n        <div className=\"flex flex-wrap gap-6 text-xs\" style={{ color: 'var(--color-muted)' }}>\n          {links.map((link) => (\n            <a key={link.label} href={link.href} className=\"hover:opacity-100 opacity-80\">\n              {link.label}\n            </a>\n          ))}\n        </div>\n      </div>\n    </footer>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/pages/HomePage.tsx",
+        "content": "import React from 'react';\nimport { MainLayout } from '../layouts/MainLayout';\nimport { Navbar } from '../components/Navbar';\nimport { HeroSection } from '../components/HeroSection';\nimport { FeaturesSection } from '../components/FeaturesSection';\nimport { ContentSplit } from '../components/ContentSplit';\nimport { Footer } from '../components/Footer';\n\nexport const HomePage: React.FC = () => {\n  return (\n    <MainLayout>\n      <Navbar\n        brandName=\"Meridian Treasury\"\n        links={[{\"label\":\"Liquidity\",\"href\":\"#features\"},{\"label\":\"Settlement\",\"href\":\"#overview\"},{\"label\":\"Security\",\"href\":\"#features\"},{\"label\":\"Documentation\",\"href\":\"#cta\"}]}\n        ctaLabel=\"Open Treasury Account\"\n        sticky={true}\n      />\n      <HeroSection\n        heading=\"Institutional cash management built for real-time settlement.\"\n        subheading=\"Unify multi-entity bank accounts, automate short-duration treasury sweeps, and reconcile global disbursements from a single ledger.\"\n        ctaLabel=\"Explore Infrastructure\"\n        secondaryCtaLabel=\"Read Technical Brief\"\n        imageUrl=\"/src/assets/images/example_fintech_preview_1795070818851.jpg\"\n        imageAlt=\"Meridian Treasury architectural glass atrium\"\n      />\n      <FeaturesSection\n        heading=\"Core Treasury Primitives\"\n        subheading=\"Designed for CFOs, controllers, and platform engineering teams operating across 40+ currencies.\"\n        items={[{\"id\":\"f1\",\"title\":\"Automated Liquidity Sweeps\",\"description\":\"Route idle operating balances into sovereign T-bill ladders at market close with zero manual wire approvals.\"},{\"id\":\"f2\",\"title\":\"Deterministic Ledger Sync\",\"description\":\"Double-entry journal exports reconcile directly with NetSuite, SAP, and custom ERP pipelines in under 30 seconds.\"},{\"id\":\"f3\",\"title\":\"Granular Approval Policies\",\"description\":\"Enforce hardware-key quorum rules across subsidiaries, currency corridors, and daily disbursement thresholds.\"}]}\n      />\n      <ContentSplit\n        heading=\"Direct bank rail connectivity without middleware drift.\"\n        body=\"Meridian connects directly to Tier-1 clearing partners via ISO 20022 messaging, eliminating brittle screen-scraping aggregators.\"\n        ctaLabel=\"Schedule Architecture Review\"\n      />\n      <Footer\n        brandName=\"Meridian Treasury\"\n        body=\"© 2026 Meridian Treasury Infrastructure Ltd. Example template project.\"\n        links={[{\"label\":\"System Status\",\"href\":\"#top\"},{\"label\":\"SOC 2 Report\",\"href\":\"#features\"},{\"label\":\"API Reference\",\"href\":\"#overview\"}]}\n      />\n    </MainLayout>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/App.tsx",
+        "content": "import React from 'react';\nimport './styles/tokens.css';\nimport { HomePage } from './pages/HomePage';\n\nexport default function App() {\n  return <HomePage />;\n}\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/main.tsx",
+        "content": "import React from 'react';\nimport { createRoot } from 'react-dom/client';\nimport App from './App';\nimport './styles/tokens.css';\n\ncreateRoot(document.getElementById('root')!).render(<App />);\n",
+        "language": "typescript"
+      },
+      {
+        "path": "index.html",
+        "content": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Meridian Treasury — Automated Liquidity & Yield Infrastructure</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.tsx\"></script>\n  </body>\n</html>\n",
+        "language": "html"
+      },
+      {
+        "path": "package.json",
+        "content": "{\n  \"name\": \"meridian-treasury\",\n  \"private\": true,\n  \"version\": \"0.1.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"^19.0.0\",\n    \"react-dom\": \"^19.0.0\",\n    \"lucide-react\": \"^0.500.0\"\n  },\n  \"devDependencies\": {\n    \"@tailwindcss/vite\": \"^4.1.0\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"tailwindcss\": \"^4.1.0\",\n    \"typescript\": \"^5.7.2\",\n    \"vite\": \"^6.1.0\"\n  }\n}",
+        "language": "json"
+      }
+    ],
+    "aiHistory": [],
+    "comparisons": []
+  },
+  {
+    "id": "example-kanso",
+    "name": "Kanso Acoustics",
+    "sourceUrl": "https://example-kanso-acoustics.design",
+    "mode": "redesign",
+    "redesignDirection": "luxury",
+    "status": "completed",
+    "isExample": true,
+    "thumbnailUrl": "/src/assets/images/example_hardware_preview_1795070818384.jpg",
+    "createdAt": "2026-11-19T06:54:04.866Z",
+    "updatedAt": "2026-11-19T06:54:04.866Z",
+    "blueprint": {
+      "project": {
+        "name": "Kanso Acoustics",
+        "type": "Audio Hardware Storefront",
+        "sourceUrl": "https://example-kanso-acoustics.design",
+        "mode": "redesign",
+        "redesignDirection": "luxury"
+      },
+      "metadata": {
+        "title": "Kanso Acoustics — Reference Studio Monitors",
+        "description": "CNC-milled anodized aluminum acoustic monitors engineered in Kyoto.",
+        "language": "en"
+      },
+      "designSystem": {
+        "primaryColor": "#D97706",
+        "secondaryColor": "#27272A",
+        "backgroundColor": "#09090B",
+        "surfaceColor": "#121215",
+        "textColor": "#F4F4F5",
+        "mutedTextColor": "#A1A1AA",
+        "borderColor": "#27272A",
+        "fontFamily": "DM Sans",
+        "displayFontFamily": "Plus Jakarta Sans",
+        "borderRadius": "4px",
+        "spacingScale": "8px",
+        "cssVariables": {
+          "--color-primary": "#D97706",
+          "--color-bg": "#09090B",
+          "--color-surface": "#121215",
+          "--color-text": "#F4F4F5"
+        }
+      },
+      "navigation": {
+        "brandName": "Kanso Acoustics",
+        "sticky": true,
+        "links": [
+          {
+            "label": "Model 01",
+            "href": "#features"
+          },
+          {
+            "label": "Engineering",
+            "href": "#overview"
+          },
+          {
+            "label": "Listening Rooms",
+            "href": "#cta"
+          }
+        ],
+        "ctaLabel": "Configure Pair"
+      },
+      "responsiveRules": [
+        {
+          "breakpoint": "1440px",
+          "rule": "Wide asymmetrical showcase layout with 4px industrial radius."
+        },
+        {
+          "breakpoint": "390px",
+          "rule": "Stacked vertical spec cards and sticky bottom purchase bar."
+        }
+      ],
+      "components": [
+        {
+          "id": "navbar",
+          "name": "Top Navigation",
+          "type": "navigation",
+          "visible": true,
+          "props": {
+            "heading": "Kanso Acoustics",
+            "ctaLabel": "Configure Pair",
+            "links": [
+              {
+                "label": "Model 01",
+                "href": "#features"
+              },
+              {
+                "label": "Engineering",
+                "href": "#overview"
+              },
+              {
+                "label": "Listening Rooms",
+                "href": "#cta"
+              }
+            ]
+          },
+          "styles": {
+            "backgroundColor": "#09090B",
+            "textColor": "#F4F4F5",
+            "borderColor": "#27272A"
+          }
+        },
+        {
+          "id": "hero",
+          "name": "Hero Showcase",
+          "type": "hero",
+          "visible": true,
+          "props": {
+            "heading": "Precision acoustic monitors milled from solid aluminum.",
+            "subheading": "Zero-resonance enclosures paired with custom beryllium tweeters for mastering rooms and discerning listening spaces.",
+            "ctaLabel": "Explore Model 01",
+            "secondaryCtaLabel": "Acoustic Measurements",
+            "imageUrl": "/src/assets/images/example_hardware_preview_1795070818384.jpg",
+            "imageAlt": "Kanso Model 01 matte black aluminum monitor on basalt stone"
+          },
+          "styles": {
+            "backgroundColor": "#09090B",
+            "textColor": "#F4F4F5",
+            "padding": "80px 24px",
+            "layout": "two-column"
+          }
+        },
+        {
+          "id": "features",
+          "name": "Acoustic Specifications",
+          "type": "feature-grid",
+          "visible": true,
+          "props": {
+            "heading": "Measured Transparency",
+            "subheading": "Every serialized pair is calibrated in our Kyoto anechoic chamber within ±0.4 dB.",
+            "items": [
+              {
+                "id": "k1",
+                "title": "Monoblock Enclosure",
+                "description": "5-axis CNC machined 6061 aluminum cabinet eliminates internal standing waves and baffle diffraction."
+              },
+              {
+                "id": "k2",
+                "title": "Class-AB Bi-Amplification",
+                "description": "Discrete 180W low-frequency and 90W high-frequency stages tuned for effortless transient response."
+              },
+              {
+                "id": "k3",
+                "title": "Room Boundary DSP",
+                "description": "Subtle analog-voiced parametric trim compensates for near-wall desk placement."
+              }
+            ]
+          },
+          "styles": {
+            "backgroundColor": "#09090B",
+            "textColor": "#F4F4F5",
+            "padding": "72px 24px",
+            "layout": "three-column"
+          }
+        },
+        {
+          "id": "overview",
+          "name": "Craftsmanship Note",
+          "type": "content-split",
+          "visible": true,
+          "props": {
+            "heading": "Built to outlast format cycles.",
+            "body": "Modular amplifier backplates and serviceable transducers ensure every Kanso monitor remains field-maintainable for decades.",
+            "ctaLabel": "Book Private Audition"
+          },
+          "styles": {
+            "backgroundColor": "#121215",
+            "textColor": "#F4F4F5",
+            "padding": "72px 24px"
+          }
+        },
+        {
+          "id": "footer",
+          "name": "Footer",
+          "type": "footer",
+          "visible": true,
+          "props": {
+            "body": "© 2026 Kanso Acoustics Studio. Example template project.",
+            "links": [
+              {
+                "label": "Warranty",
+                "href": "#top"
+              },
+              {
+                "label": "Spec Sheets",
+                "href": "#features"
+              }
+            ]
+          },
+          "styles": {
+            "backgroundColor": "#09090B",
+            "textColor": "#F4F4F5",
+            "padding": "48px 24px"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "path": "src/styles/tokens.css",
+        "content": ":root {\n  --color-primary: #D97706;\n  --color-secondary: #27272A;\n  --color-bg: #09090B;\n  --color-surface: #121215;\n  --color-text: #F4F4F5;\n  --color-muted: #A1A1AA;\n  --color-border: #27272A;\n  --font-display: 'Plus Jakarta Sans', sans-serif;\n  --font-body: 'DM Sans', sans-serif;\n  --radius-base: 4px;\n}\n\nbody {\n  background-color: var(--color-bg);\n  color: var(--color-text);\n  font-family: var(--font-body);\n  margin: 0;\n}\n",
+        "language": "css"
+      },
+      {
+        "path": "src/layouts/MainLayout.tsx",
+        "content": "import React from 'react';\n\nexport const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {\n  return <div className=\"min-h-screen flex flex-col\">{children}</div>;\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/Navbar.tsx",
+        "content": "import React, { useState } from 'react';\nimport { Menu, X } from 'lucide-react';\n\ninterface NavbarProps {\n  brandName: string;\n  links: Array<{ label: string; href: string }>;\n  ctaLabel?: string;\n  sticky?: boolean;\n  styles?: React.CSSProperties;\n}\n\nexport const Navbar: React.FC<NavbarProps> = ({\n  brandName,\n  links,\n  ctaLabel = 'Get Started',\n  sticky = true,\n  styles = {},\n}) => {\n  const [open, setOpen] = useState(false);\n\n  return (\n    <header\n      data-component-id=\"navbar\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'var(--color-bg)',\n        color: styles.color || 'var(--color-text)',\n        borderColor: styles.borderColor || 'var(--color-border)',\n        ...styles,\n      }}\n      className={`${sticky ? 'sticky top-0 z-40 backdrop-blur-md' : ''} border-b`}\n    >\n      <div className=\"mx-auto flex max-w-6xl items-center justify-between gap-8 px-6 py-4\">\n        <a href=\"#top\" className=\"text-lg font-semibold tracking-tight whitespace-nowrap shrink-0\" style={{ fontFamily: 'var(--font-display)' }}>\n          {brandName}\n        </a>\n        <nav className=\"hidden md:flex items-center gap-6 text-sm\" style={{ color: 'var(--color-muted)' }}>\n          {links.map((link) => (\n            <a key={link.label} href={link.href} className=\"hover:opacity-100 opacity-85 transition-opacity whitespace-nowrap shrink-0\">\n              {link.label}\n            </a>\n          ))}\n        </nav>\n        <div className=\"hidden md:flex items-center shrink-0\">\n          <a\n            href=\"#cta\"\n            className=\"px-4 py-2 text-xs font-medium whitespace-nowrap shrink-0 transition-opacity hover:opacity-90\"\n            style={{\n              backgroundColor: 'var(--color-primary)',\n              color: '#FFFFFF',\n              borderRadius: 'var(--radius-base)',\n            }}\n          >\n            {ctaLabel}\n          </a>\n        </div>\n        <button\n          type=\"button\"\n          onClick={() => setOpen(!open)}\n          aria-label=\"Toggle menu\"\n          className=\"md:hidden p-2 rounded border\"\n          style={{ borderColor: 'var(--color-border)' }}\n        >\n          {open ? <X size={18} /> : <Menu size={18} />}\n        </button>\n      </div>\n      {open && (\n        <div className=\"md:hidden border-t px-6 py-4 space-y-3\" style={{ borderColor: 'var(--color-border)' }}>\n          {links.map((link) => (\n            <a key={link.label} href={link.href} className=\"block text-sm py-1\">\n              {link.label}\n            </a>\n          ))}\n        </div>\n      )}\n    </header>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/HeroSection.tsx",
+        "content": "import React from 'react';\nimport { ArrowRight } from 'lucide-react';\n\ninterface HeroSectionProps {\n  heading: string;\n  subheading: string;\n  ctaLabel: string;\n  secondaryCtaLabel?: string;\n  imageUrl?: string;\n  imageAlt?: string;\n  styles?: React.CSSProperties;\n}\n\nexport const HeroSection: React.FC<HeroSectionProps> = ({\n  heading,\n  subheading,\n  ctaLabel,\n  secondaryCtaLabel,\n  imageUrl,\n  imageAlt = 'Featured visual',\n  styles = {},\n}) => {\n  return (\n    <section\n      data-component-id=\"hero\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'transparent',\n        color: styles.color || 'var(--color-text)',\n        padding: styles.padding || '80px 24px',\n        ...styles,\n      }}\n      className=\"border-b\"\n    >\n      <div className=\"mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-12\">\n        <div className=\"lg:col-span-6 space-y-6\">\n          <h1\n            className=\"text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]\"\n            style={{ fontFamily: 'var(--font-display)' }}\n          >\n            {heading}\n          </h1>\n          <p className=\"text-base md:text-lg leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n            {subheading}\n          </p>\n          <div className=\"flex flex-wrap items-center gap-3 pt-2\">\n            <a\n              href=\"#features\"\n              className=\"inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium transition-opacity hover:opacity-90\"\n              style={{\n                backgroundColor: 'var(--color-primary)',\n                color: '#FFFFFF',\n                borderRadius: 'var(--radius-base)',\n              }}\n            >\n              <span>{ctaLabel}</span>\n              <ArrowRight size={15} />\n            </a>\n            {secondaryCtaLabel && (\n              <a\n                href=\"#overview\"\n                className=\"inline-flex items-center px-5 py-2.5 text-sm font-medium border transition-colors\"\n                style={{\n                  borderColor: 'var(--color-border)',\n                  borderRadius: 'var(--radius-base)',\n                }}\n              >\n                {secondaryCtaLabel}\n              </a>\n            )}\n          </div>\n        </div>\n        <div className=\"lg:col-span-6\">\n          {imageUrl ? (\n            <div className=\"overflow-hidden border\" style={{ borderColor: 'var(--color-border)', borderRadius: 'var(--radius-base)' }}>\n              <img src={imageUrl} alt={imageAlt} className=\"w-full h-[360px] object-cover\" referrerPolicy=\"no-referrer\" />\n            </div>\n          ) : null}\n        </div>\n      </div>\n    </section>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/FeaturesSection.tsx",
+        "content": "import React from 'react';\n\ninterface FeatureItem {\n  id: string;\n  title: string;\n  description: string;\n  meta?: string;\n}\n\ninterface FeaturesSectionProps {\n  heading: string;\n  subheading?: string;\n  items: FeatureItem[];\n  styles?: React.CSSProperties;\n}\n\nexport const FeaturesSection: React.FC<FeaturesSectionProps> = ({\n  heading,\n  subheading,\n  items,\n  styles = {},\n}) => {\n  return (\n    <section\n      id=\"features\"\n      data-component-id=\"features\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'transparent',\n        color: styles.color || 'var(--color-text)',\n        padding: styles.padding || '72px 24px',\n        ...styles,\n      }}\n      className=\"border-b\"\n    >\n      <div className=\"mx-auto max-w-6xl space-y-10\">\n        <div className=\"max-w-2xl space-y-3\">\n          <h2 className=\"text-2xl md:text-3xl font-semibold tracking-tight\" style={{ fontFamily: 'var(--font-display)' }}>\n            {heading}\n          </h2>\n          {subheading && (\n            <p className=\"text-sm md:text-base leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n              {subheading}\n            </p>\n          )}\n        </div>\n        <div className=\"grid gap-6 md:grid-cols-3\">\n          {items.map((item, idx) => (\n            <article\n              key={item.id}\n              className=\"p-6 border space-y-3\"\n              style={{\n                backgroundColor: 'var(--color-surface)',\n                borderColor: 'var(--color-border)',\n                borderRadius: 'var(--radius-base)',\n              }}\n            >\n              <div className=\"text-xs font-mono opacity-60\">0{idx + 1}</div>\n              <h3 className=\"text-lg font-semibold\" style={{ fontFamily: 'var(--font-display)' }}>\n                {item.title}\n              </h3>\n              <p className=\"text-sm leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n                {item.description}\n              </p>\n            </article>\n          ))}\n        </div>\n      </div>\n    </section>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/ContentSplit.tsx",
+        "content": "import React from 'react';\n\ninterface ContentSplitProps {\n  heading: string;\n  body: string;\n  ctaLabel?: string;\n  styles?: React.CSSProperties;\n}\n\nexport const ContentSplit: React.FC<ContentSplitProps> = ({\n  heading,\n  body,\n  ctaLabel,\n  styles = {},\n}) => {\n  return (\n    <section\n      id=\"overview\"\n      data-component-id=\"overview\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'transparent',\n        color: styles.color || 'var(--color-text)',\n        padding: styles.padding || '72px 24px',\n        ...styles,\n      }}\n      className=\"border-b\"\n    >\n      <div className=\"mx-auto max-w-6xl grid gap-8 md:grid-cols-12 items-center\">\n        <div className=\"md:col-span-7 space-y-4\">\n          <h2 className=\"text-2xl md:text-3xl font-semibold tracking-tight\" style={{ fontFamily: 'var(--font-display)' }}>\n            {heading}\n          </h2>\n          <p className=\"text-base leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n            {body}\n          </p>\n        </div>\n        <div className=\"md:col-span-5 flex md:justify-end\">\n          {ctaLabel && (\n            <a\n              href=\"#cta\"\n              className=\"px-5 py-2.5 text-sm font-medium\"\n              style={{\n                backgroundColor: 'var(--color-primary)',\n                color: '#FFFFFF',\n                borderRadius: 'var(--radius-base)',\n              }}\n            >\n              {ctaLabel}\n            </a>\n          )}\n        </div>\n      </div>\n    </section>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/Footer.tsx",
+        "content": "import React from 'react';\n\ninterface FooterProps {\n  brandName: string;\n  body: string;\n  links?: Array<{ label: string; href: string }>;\n  styles?: React.CSSProperties;\n}\n\nexport const Footer: React.FC<FooterProps> = ({\n  brandName,\n  body,\n  links = [],\n  styles = {},\n}) => {\n  return (\n    <footer\n      id=\"cta\"\n      data-component-id=\"footer\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'var(--color-surface)',\n        color: styles.color || 'var(--color-text)',\n        borderColor: 'var(--color-border)',\n        padding: styles.padding || '48px 24px',\n        ...styles,\n      }}\n      className=\"border-t\"\n    >\n      <div className=\"mx-auto max-w-6xl flex flex-col md:flex-row items-start md:items-center justify-between gap-6\">\n        <div className=\"space-y-1\">\n          <div className=\"text-base font-semibold\" style={{ fontFamily: 'var(--font-display)' }}>\n            {brandName}\n          </div>\n          <p className=\"text-xs\" style={{ color: 'var(--color-muted)' }}>\n            {body}\n          </p>\n        </div>\n        <div className=\"flex flex-wrap gap-6 text-xs\" style={{ color: 'var(--color-muted)' }}>\n          {links.map((link) => (\n            <a key={link.label} href={link.href} className=\"hover:opacity-100 opacity-80\">\n              {link.label}\n            </a>\n          ))}\n        </div>\n      </div>\n    </footer>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/pages/HomePage.tsx",
+        "content": "import React from 'react';\nimport { MainLayout } from '../layouts/MainLayout';\nimport { Navbar } from '../components/Navbar';\nimport { HeroSection } from '../components/HeroSection';\nimport { FeaturesSection } from '../components/FeaturesSection';\nimport { ContentSplit } from '../components/ContentSplit';\nimport { Footer } from '../components/Footer';\n\nexport const HomePage: React.FC = () => {\n  return (\n    <MainLayout>\n      <Navbar\n        brandName=\"Kanso Acoustics\"\n        links={[{\"label\":\"Model 01\",\"href\":\"#features\"},{\"label\":\"Engineering\",\"href\":\"#overview\"},{\"label\":\"Listening Rooms\",\"href\":\"#cta\"}]}\n        ctaLabel=\"Configure Pair\"\n        sticky={true}\n      />\n      <HeroSection\n        heading=\"Precision acoustic monitors milled from solid aluminum.\"\n        subheading=\"Zero-resonance enclosures paired with custom beryllium tweeters for mastering rooms and discerning listening spaces.\"\n        ctaLabel=\"Explore Model 01\"\n        secondaryCtaLabel=\"Acoustic Measurements\"\n        imageUrl=\"/src/assets/images/example_hardware_preview_1795070818384.jpg\"\n        imageAlt=\"Kanso Model 01 matte black aluminum monitor on basalt stone\"\n      />\n      <FeaturesSection\n        heading=\"Measured Transparency\"\n        subheading=\"Every serialized pair is calibrated in our Kyoto anechoic chamber within ±0.4 dB.\"\n        items={[{\"id\":\"k1\",\"title\":\"Monoblock Enclosure\",\"description\":\"5-axis CNC machined 6061 aluminum cabinet eliminates internal standing waves and baffle diffraction.\"},{\"id\":\"k2\",\"title\":\"Class-AB Bi-Amplification\",\"description\":\"Discrete 180W low-frequency and 90W high-frequency stages tuned for effortless transient response.\"},{\"id\":\"k3\",\"title\":\"Room Boundary DSP\",\"description\":\"Subtle analog-voiced parametric trim compensates for near-wall desk placement.\"}]}\n      />\n      <ContentSplit\n        heading=\"Built to outlast format cycles.\"\n        body=\"Modular amplifier backplates and serviceable transducers ensure every Kanso monitor remains field-maintainable for decades.\"\n        ctaLabel=\"Book Private Audition\"\n      />\n      <Footer\n        brandName=\"Kanso Acoustics\"\n        body=\"© 2026 Kanso Acoustics Studio. Example template project.\"\n        links={[{\"label\":\"Warranty\",\"href\":\"#top\"},{\"label\":\"Spec Sheets\",\"href\":\"#features\"}]}\n      />\n    </MainLayout>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/App.tsx",
+        "content": "import React from 'react';\nimport './styles/tokens.css';\nimport { HomePage } from './pages/HomePage';\n\nexport default function App() {\n  return <HomePage />;\n}\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/main.tsx",
+        "content": "import React from 'react';\nimport { createRoot } from 'react-dom/client';\nimport App from './App';\nimport './styles/tokens.css';\n\ncreateRoot(document.getElementById('root')!).render(<App />);\n",
+        "language": "typescript"
+      },
+      {
+        "path": "index.html",
+        "content": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Kanso Acoustics — Reference Studio Monitors</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.tsx\"></script>\n  </body>\n</html>\n",
+        "language": "html"
+      },
+      {
+        "path": "package.json",
+        "content": "{\n  \"name\": \"kanso-acoustics\",\n  \"private\": true,\n  \"version\": \"0.1.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"^19.0.0\",\n    \"react-dom\": \"^19.0.0\",\n    \"lucide-react\": \"^0.500.0\"\n  },\n  \"devDependencies\": {\n    \"@tailwindcss/vite\": \"^4.1.0\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"tailwindcss\": \"^4.1.0\",\n    \"typescript\": \"^5.7.2\",\n    \"vite\": \"^6.1.0\"\n  }\n}",
+        "language": "json"
+      }
+    ],
+    "aiHistory": [],
+    "comparisons": []
+  },
+  {
+    "id": "example-atelier",
+    "name": "Atelier Monograph",
+    "sourceUrl": "https://example-atelier-monograph.press",
+    "mode": "rebuild",
+    "status": "completed",
+    "isExample": true,
+    "thumbnailUrl": "/src/assets/images/example_editorial_preview_1795070817445.jpg",
+    "createdAt": "2026-11-19T06:54:04.866Z",
+    "updatedAt": "2026-11-19T06:54:04.866Z",
+    "blueprint": {
+      "project": {
+        "name": "Atelier Monograph",
+        "type": "Architectural Journal",
+        "sourceUrl": "https://example-atelier-monograph.press",
+        "mode": "rebuild"
+      },
+      "metadata": {
+        "title": "Atelier Monograph — Spatial Architecture & Concrete Studies",
+        "description": "Quarterly architectural monograph examining daylight, concrete, and civic space.",
+        "language": "en"
+      },
+      "designSystem": {
+        "primaryColor": "#18181B",
+        "secondaryColor": "#71717A",
+        "backgroundColor": "#F5F4F0",
+        "surfaceColor": "#FFFFFF",
+        "textColor": "#18181B",
+        "mutedTextColor": "#52525B",
+        "borderColor": "#E4E2DC",
+        "fontFamily": "DM Sans",
+        "displayFontFamily": "Plus Jakarta Sans",
+        "borderRadius": "2px",
+        "spacingScale": "8px",
+        "cssVariables": {
+          "--color-primary": "#18181B",
+          "--color-bg": "#F5F4F0",
+          "--color-surface": "#FFFFFF",
+          "--color-text": "#18181B"
+        }
+      },
+      "navigation": {
+        "brandName": "Atelier Monograph",
+        "sticky": false,
+        "links": [
+          {
+            "label": "Issues",
+            "href": "#features"
+          },
+          {
+            "label": "Essays",
+            "href": "#overview"
+          },
+          {
+            "label": "Archive",
+            "href": "#cta"
+          }
+        ],
+        "ctaLabel": "Subscribe Print"
+      },
+      "responsiveRules": [
+        {
+          "breakpoint": "1440px",
+          "rule": "Editorial 12-column grid with generous vertical margins."
+        },
+        {
+          "breakpoint": "390px",
+          "rule": "Single-column reading measure capped at 65ch."
+        }
+      ],
+      "components": [
+        {
+          "id": "navbar",
+          "name": "Editorial Masthead",
+          "type": "navigation",
+          "visible": true,
+          "props": {
+            "heading": "Atelier Monograph",
+            "ctaLabel": "Subscribe Print",
+            "links": [
+              {
+                "label": "Issues",
+                "href": "#features"
+              },
+              {
+                "label": "Essays",
+                "href": "#overview"
+              },
+              {
+                "label": "Archive",
+                "href": "#cta"
+              }
+            ]
+          },
+          "styles": {
+            "backgroundColor": "#F5F4F0",
+            "textColor": "#18181B",
+            "borderColor": "#E4E2DC"
+          }
+        },
+        {
+          "id": "hero",
+          "name": "Lead Essay Feature",
+          "type": "hero",
+          "visible": true,
+          "props": {
+            "heading": "Daylight geometry and board-formed concrete in civic galleries.",
+            "subheading": "Issue 14 investigates how northern European and Japanese museum pavilions choreograph natural light without mechanical glare.",
+            "ctaLabel": "Read Issue 14",
+            "secondaryCtaLabel": "Browse Archive",
+            "imageUrl": "/src/assets/images/example_editorial_preview_1795070817445.jpg",
+            "imageAlt": "Modernist concrete gallery with natural window shadows"
+          },
+          "styles": {
+            "backgroundColor": "#F5F4F0",
+            "textColor": "#18181B",
+            "padding": "80px 24px",
+            "layout": "two-column"
+          }
+        },
+        {
+          "id": "features",
+          "name": "Featured Monographs",
+          "type": "feature-grid",
+          "visible": true,
+          "props": {
+            "heading": "Recent Field Studies",
+            "subheading": "Documented with large-format photography, section drawings, and material notes.",
+            "items": [
+              {
+                "id": "a1",
+                "title": "Naoshima Timber & Stone",
+                "description": "Spatial sequencing along coastal topography and quiet threshold transitions."
+              },
+              {
+                "id": "a2",
+                "title": "Basel Thermal Baths",
+                "description": "Compression, acoustic stillness, and mineral weathering over twenty winters."
+              },
+              {
+                "id": "a3",
+                "title": "Zurich Civic Courtyards",
+                "description": "How shared semi-public passages stitch dense residential blocks together."
+              }
+            ]
+          },
+          "styles": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#18181B",
+            "padding": "72px 24px",
+            "layout": "three-column"
+          }
+        },
+        {
+          "id": "overview",
+          "name": "Print Edition Note",
+          "type": "content-split",
+          "visible": true,
+          "props": {
+            "heading": "Printed quarterly on uncoated Munken Kristall stock.",
+            "body": "Each 180-page volume ships worldwide without advertising, funded solely by studio and reader subscriptions.",
+            "ctaLabel": "Order Back Issues"
+          },
+          "styles": {
+            "backgroundColor": "#F5F4F0",
+            "textColor": "#18181B",
+            "padding": "72px 24px"
+          }
+        },
+        {
+          "id": "footer",
+          "name": "Footer",
+          "type": "footer",
+          "visible": true,
+          "props": {
+            "body": "© 2026 Atelier Monograph Press. Example template project.",
+            "links": [
+              {
+                "label": "Colophon",
+                "href": "#top"
+              },
+              {
+                "label": "Submissions",
+                "href": "#overview"
+              }
+            ]
+          },
+          "styles": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#18181B",
+            "padding": "48px 24px"
+          }
+        }
+      ]
+    },
+    "files": [
+      {
+        "path": "src/styles/tokens.css",
+        "content": ":root {\n  --color-primary: #18181B;\n  --color-secondary: #71717A;\n  --color-bg: #F5F4F0;\n  --color-surface: #FFFFFF;\n  --color-text: #18181B;\n  --color-muted: #52525B;\n  --color-border: #E4E2DC;\n  --font-display: 'Plus Jakarta Sans', sans-serif;\n  --font-body: 'DM Sans', sans-serif;\n  --radius-base: 2px;\n}\n\nbody {\n  background-color: var(--color-bg);\n  color: var(--color-text);\n  font-family: var(--font-body);\n  margin: 0;\n}\n",
+        "language": "css"
+      },
+      {
+        "path": "src/layouts/MainLayout.tsx",
+        "content": "import React from 'react';\n\nexport const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {\n  return <div className=\"min-h-screen flex flex-col\">{children}</div>;\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/Navbar.tsx",
+        "content": "import React, { useState } from 'react';\nimport { Menu, X } from 'lucide-react';\n\ninterface NavbarProps {\n  brandName: string;\n  links: Array<{ label: string; href: string }>;\n  ctaLabel?: string;\n  sticky?: boolean;\n  styles?: React.CSSProperties;\n}\n\nexport const Navbar: React.FC<NavbarProps> = ({\n  brandName,\n  links,\n  ctaLabel = 'Get Started',\n  sticky = true,\n  styles = {},\n}) => {\n  const [open, setOpen] = useState(false);\n\n  return (\n    <header\n      data-component-id=\"navbar\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'var(--color-bg)',\n        color: styles.color || 'var(--color-text)',\n        borderColor: styles.borderColor || 'var(--color-border)',\n        ...styles,\n      }}\n      className={`${sticky ? 'sticky top-0 z-40 backdrop-blur-md' : ''} border-b`}\n    >\n      <div className=\"mx-auto flex max-w-6xl items-center justify-between gap-8 px-6 py-4\">\n        <a href=\"#top\" className=\"text-lg font-semibold tracking-tight whitespace-nowrap shrink-0\" style={{ fontFamily: 'var(--font-display)' }}>\n          {brandName}\n        </a>\n        <nav className=\"hidden md:flex items-center gap-6 text-sm\" style={{ color: 'var(--color-muted)' }}>\n          {links.map((link) => (\n            <a key={link.label} href={link.href} className=\"hover:opacity-100 opacity-85 transition-opacity whitespace-nowrap shrink-0\">\n              {link.label}\n            </a>\n          ))}\n        </nav>\n        <div className=\"hidden md:flex items-center shrink-0\">\n          <a\n            href=\"#cta\"\n            className=\"px-4 py-2 text-xs font-medium whitespace-nowrap shrink-0 transition-opacity hover:opacity-90\"\n            style={{\n              backgroundColor: 'var(--color-primary)',\n              color: '#FFFFFF',\n              borderRadius: 'var(--radius-base)',\n            }}\n          >\n            {ctaLabel}\n          </a>\n        </div>\n        <button\n          type=\"button\"\n          onClick={() => setOpen(!open)}\n          aria-label=\"Toggle menu\"\n          className=\"md:hidden p-2 rounded border\"\n          style={{ borderColor: 'var(--color-border)' }}\n        >\n          {open ? <X size={18} /> : <Menu size={18} />}\n        </button>\n      </div>\n      {open && (\n        <div className=\"md:hidden border-t px-6 py-4 space-y-3\" style={{ borderColor: 'var(--color-border)' }}>\n          {links.map((link) => (\n            <a key={link.label} href={link.href} className=\"block text-sm py-1\">\n              {link.label}\n            </a>\n          ))}\n        </div>\n      )}\n    </header>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/HeroSection.tsx",
+        "content": "import React from 'react';\nimport { ArrowRight } from 'lucide-react';\n\ninterface HeroSectionProps {\n  heading: string;\n  subheading: string;\n  ctaLabel: string;\n  secondaryCtaLabel?: string;\n  imageUrl?: string;\n  imageAlt?: string;\n  styles?: React.CSSProperties;\n}\n\nexport const HeroSection: React.FC<HeroSectionProps> = ({\n  heading,\n  subheading,\n  ctaLabel,\n  secondaryCtaLabel,\n  imageUrl,\n  imageAlt = 'Featured visual',\n  styles = {},\n}) => {\n  return (\n    <section\n      data-component-id=\"hero\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'transparent',\n        color: styles.color || 'var(--color-text)',\n        padding: styles.padding || '80px 24px',\n        ...styles,\n      }}\n      className=\"border-b\"\n    >\n      <div className=\"mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-12\">\n        <div className=\"lg:col-span-6 space-y-6\">\n          <h1\n            className=\"text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]\"\n            style={{ fontFamily: 'var(--font-display)' }}\n          >\n            {heading}\n          </h1>\n          <p className=\"text-base md:text-lg leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n            {subheading}\n          </p>\n          <div className=\"flex flex-wrap items-center gap-3 pt-2\">\n            <a\n              href=\"#features\"\n              className=\"inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium transition-opacity hover:opacity-90\"\n              style={{\n                backgroundColor: 'var(--color-primary)',\n                color: '#FFFFFF',\n                borderRadius: 'var(--radius-base)',\n              }}\n            >\n              <span>{ctaLabel}</span>\n              <ArrowRight size={15} />\n            </a>\n            {secondaryCtaLabel && (\n              <a\n                href=\"#overview\"\n                className=\"inline-flex items-center px-5 py-2.5 text-sm font-medium border transition-colors\"\n                style={{\n                  borderColor: 'var(--color-border)',\n                  borderRadius: 'var(--radius-base)',\n                }}\n              >\n                {secondaryCtaLabel}\n              </a>\n            )}\n          </div>\n        </div>\n        <div className=\"lg:col-span-6\">\n          {imageUrl ? (\n            <div className=\"overflow-hidden border\" style={{ borderColor: 'var(--color-border)', borderRadius: 'var(--radius-base)' }}>\n              <img src={imageUrl} alt={imageAlt} className=\"w-full h-[360px] object-cover\" referrerPolicy=\"no-referrer\" />\n            </div>\n          ) : null}\n        </div>\n      </div>\n    </section>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/FeaturesSection.tsx",
+        "content": "import React from 'react';\n\ninterface FeatureItem {\n  id: string;\n  title: string;\n  description: string;\n  meta?: string;\n}\n\ninterface FeaturesSectionProps {\n  heading: string;\n  subheading?: string;\n  items: FeatureItem[];\n  styles?: React.CSSProperties;\n}\n\nexport const FeaturesSection: React.FC<FeaturesSectionProps> = ({\n  heading,\n  subheading,\n  items,\n  styles = {},\n}) => {\n  return (\n    <section\n      id=\"features\"\n      data-component-id=\"features\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'transparent',\n        color: styles.color || 'var(--color-text)',\n        padding: styles.padding || '72px 24px',\n        ...styles,\n      }}\n      className=\"border-b\"\n    >\n      <div className=\"mx-auto max-w-6xl space-y-10\">\n        <div className=\"max-w-2xl space-y-3\">\n          <h2 className=\"text-2xl md:text-3xl font-semibold tracking-tight\" style={{ fontFamily: 'var(--font-display)' }}>\n            {heading}\n          </h2>\n          {subheading && (\n            <p className=\"text-sm md:text-base leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n              {subheading}\n            </p>\n          )}\n        </div>\n        <div className=\"grid gap-6 md:grid-cols-3\">\n          {items.map((item, idx) => (\n            <article\n              key={item.id}\n              className=\"p-6 border space-y-3\"\n              style={{\n                backgroundColor: 'var(--color-surface)',\n                borderColor: 'var(--color-border)',\n                borderRadius: 'var(--radius-base)',\n              }}\n            >\n              <div className=\"text-xs font-mono opacity-60\">0{idx + 1}</div>\n              <h3 className=\"text-lg font-semibold\" style={{ fontFamily: 'var(--font-display)' }}>\n                {item.title}\n              </h3>\n              <p className=\"text-sm leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n                {item.description}\n              </p>\n            </article>\n          ))}\n        </div>\n      </div>\n    </section>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/ContentSplit.tsx",
+        "content": "import React from 'react';\n\ninterface ContentSplitProps {\n  heading: string;\n  body: string;\n  ctaLabel?: string;\n  styles?: React.CSSProperties;\n}\n\nexport const ContentSplit: React.FC<ContentSplitProps> = ({\n  heading,\n  body,\n  ctaLabel,\n  styles = {},\n}) => {\n  return (\n    <section\n      id=\"overview\"\n      data-component-id=\"overview\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'transparent',\n        color: styles.color || 'var(--color-text)',\n        padding: styles.padding || '72px 24px',\n        ...styles,\n      }}\n      className=\"border-b\"\n    >\n      <div className=\"mx-auto max-w-6xl grid gap-8 md:grid-cols-12 items-center\">\n        <div className=\"md:col-span-7 space-y-4\">\n          <h2 className=\"text-2xl md:text-3xl font-semibold tracking-tight\" style={{ fontFamily: 'var(--font-display)' }}>\n            {heading}\n          </h2>\n          <p className=\"text-base leading-relaxed\" style={{ color: 'var(--color-muted)' }}>\n            {body}\n          </p>\n        </div>\n        <div className=\"md:col-span-5 flex md:justify-end\">\n          {ctaLabel && (\n            <a\n              href=\"#cta\"\n              className=\"px-5 py-2.5 text-sm font-medium\"\n              style={{\n                backgroundColor: 'var(--color-primary)',\n                color: '#FFFFFF',\n                borderRadius: 'var(--radius-base)',\n              }}\n            >\n              {ctaLabel}\n            </a>\n          )}\n        </div>\n      </div>\n    </section>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/components/Footer.tsx",
+        "content": "import React from 'react';\n\ninterface FooterProps {\n  brandName: string;\n  body: string;\n  links?: Array<{ label: string; href: string }>;\n  styles?: React.CSSProperties;\n}\n\nexport const Footer: React.FC<FooterProps> = ({\n  brandName,\n  body,\n  links = [],\n  styles = {},\n}) => {\n  return (\n    <footer\n      id=\"cta\"\n      data-component-id=\"footer\"\n      style={{\n        backgroundColor: styles.backgroundColor || 'var(--color-surface)',\n        color: styles.color || 'var(--color-text)',\n        borderColor: 'var(--color-border)',\n        padding: styles.padding || '48px 24px',\n        ...styles,\n      }}\n      className=\"border-t\"\n    >\n      <div className=\"mx-auto max-w-6xl flex flex-col md:flex-row items-start md:items-center justify-between gap-6\">\n        <div className=\"space-y-1\">\n          <div className=\"text-base font-semibold\" style={{ fontFamily: 'var(--font-display)' }}>\n            {brandName}\n          </div>\n          <p className=\"text-xs\" style={{ color: 'var(--color-muted)' }}>\n            {body}\n          </p>\n        </div>\n        <div className=\"flex flex-wrap gap-6 text-xs\" style={{ color: 'var(--color-muted)' }}>\n          {links.map((link) => (\n            <a key={link.label} href={link.href} className=\"hover:opacity-100 opacity-80\">\n              {link.label}\n            </a>\n          ))}\n        </div>\n      </div>\n    </footer>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/pages/HomePage.tsx",
+        "content": "import React from 'react';\nimport { MainLayout } from '../layouts/MainLayout';\nimport { Navbar } from '../components/Navbar';\nimport { HeroSection } from '../components/HeroSection';\nimport { FeaturesSection } from '../components/FeaturesSection';\nimport { ContentSplit } from '../components/ContentSplit';\nimport { Footer } from '../components/Footer';\n\nexport const HomePage: React.FC = () => {\n  return (\n    <MainLayout>\n      <Navbar\n        brandName=\"Atelier Monograph\"\n        links={[{\"label\":\"Issues\",\"href\":\"#features\"},{\"label\":\"Essays\",\"href\":\"#overview\"},{\"label\":\"Archive\",\"href\":\"#cta\"}]}\n        ctaLabel=\"Subscribe Print\"\n        sticky={false}\n      />\n      <HeroSection\n        heading=\"Daylight geometry and board-formed concrete in civic galleries.\"\n        subheading=\"Issue 14 investigates how northern European and Japanese museum pavilions choreograph natural light without mechanical glare.\"\n        ctaLabel=\"Read Issue 14\"\n        secondaryCtaLabel=\"Browse Archive\"\n        imageUrl=\"/src/assets/images/example_editorial_preview_1795070817445.jpg\"\n        imageAlt=\"Modernist concrete gallery with natural window shadows\"\n      />\n      <FeaturesSection\n        heading=\"Recent Field Studies\"\n        subheading=\"Documented with large-format photography, section drawings, and material notes.\"\n        items={[{\"id\":\"a1\",\"title\":\"Naoshima Timber & Stone\",\"description\":\"Spatial sequencing along coastal topography and quiet threshold transitions.\"},{\"id\":\"a2\",\"title\":\"Basel Thermal Baths\",\"description\":\"Compression, acoustic stillness, and mineral weathering over twenty winters.\"},{\"id\":\"a3\",\"title\":\"Zurich Civic Courtyards\",\"description\":\"How shared semi-public passages stitch dense residential blocks together.\"}]}\n      />\n      <ContentSplit\n        heading=\"Printed quarterly on uncoated Munken Kristall stock.\"\n        body=\"Each 180-page volume ships worldwide without advertising, funded solely by studio and reader subscriptions.\"\n        ctaLabel=\"Order Back Issues\"\n      />\n      <Footer\n        brandName=\"Atelier Monograph\"\n        body=\"© 2026 Atelier Monograph Press. Example template project.\"\n        links={[{\"label\":\"Colophon\",\"href\":\"#top\"},{\"label\":\"Submissions\",\"href\":\"#overview\"}]}\n      />\n    </MainLayout>\n  );\n};\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/App.tsx",
+        "content": "import React from 'react';\nimport './styles/tokens.css';\nimport { HomePage } from './pages/HomePage';\n\nexport default function App() {\n  return <HomePage />;\n}\n",
+        "language": "typescript"
+      },
+      {
+        "path": "src/main.tsx",
+        "content": "import React from 'react';\nimport { createRoot } from 'react-dom/client';\nimport App from './App';\nimport './styles/tokens.css';\n\ncreateRoot(document.getElementById('root')!).render(<App />);\n",
+        "language": "typescript"
+      },
+      {
+        "path": "index.html",
+        "content": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Atelier Monograph — Spatial Architecture & Concrete Studies</title>\n  </head>\n  <body>\n    <div id=\"root\"></div>\n    <script type=\"module\" src=\"/src/main.tsx\"></script>\n  </body>\n</html>\n",
+        "language": "html"
+      },
+      {
+        "path": "package.json",
+        "content": "{\n  \"name\": \"atelier-monograph\",\n  \"private\": true,\n  \"version\": \"0.1.0\",\n  \"type\": \"module\",\n  \"scripts\": {\n    \"dev\": \"vite\",\n    \"build\": \"vite build\",\n    \"preview\": \"vite preview\"\n  },\n  \"dependencies\": {\n    \"react\": \"^19.0.0\",\n    \"react-dom\": \"^19.0.0\",\n    \"lucide-react\": \"^0.500.0\"\n  },\n  \"devDependencies\": {\n    \"@tailwindcss/vite\": \"^4.1.0\",\n    \"@vitejs/plugin-react\": \"^4.3.4\",\n    \"tailwindcss\": \"^4.1.0\",\n    \"typescript\": \"^5.7.2\",\n    \"vite\": \"^6.1.0\"\n  }\n}",
+        "language": "json"
+      }
+    ],
+    "aiHistory": [],
+    "comparisons": []
+  }
+]
